@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Playfair+Display&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-size: 16px;
+   font-family: 'Inter Tight', sans-serif;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    font-size: 3em;
+    margin: 5px 0;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    margin: 5px 0;
+}
+h3 {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    margin: 5px 0;
+}
+h4 {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    margin: 5px 0;
+}
+
+
+
+/* HEADER */
+
+
+
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+nav.navbar.navbar-expand-lg {
+    background: #5f4e61;
+
+
+/* NAVIGATION */
+
+}a.navbar-brand {
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}a.nav-link {
+    font-size: 1.3em;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+/* DIV STYLES */
+#services {
+    background: #211021;
+    position: relative;
+
+}
+
+#home-bg {
+    background: url(images/home-bg.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+#home-bg::before {
+    content: "";
+    position: absolute;
+    z-index: 99;
+    background: rgb(203 153 203 / 57%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+div#carousel {
+    height: 95vh;
+
+
+/* CAROUSEL */
+
+}
+.carousel-inner {
+    height: 95vh;
+}
+.carousel-caption {
+    bottom: 0;
+    top: 50%;
+    transform: translatey(-50%);
+}
+.carousel-item {
+    position: absolute;
+}
+.carousel-item::before {
+    position: absolute;
+    content: "";
+    background: rgb(0 0 0 / 74%);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}.carousel-caption h5 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+}
+
+.carousel-caption p {
+    font-size: 1.5em;
+
+}
+.btn-primary {
+    background: #211021;
+    border: none;
+}
+#services h2 {
+    color: white;
+
+}
+.home-bg-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+.home-bg-img h2 {
+    font-size: 4em;
+    color: #211021;
+}
+.card {
+    border: none!important;
+    
+
+    /* FOOTER */
+}
+footer {
+    background: #5f4e61;
+    color: white;
+}
